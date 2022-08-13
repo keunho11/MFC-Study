@@ -1,0 +1,14 @@
+#include "tab2sokectclient.h"
+#include "ui_tab2sokect.h"
+
+Tab2SokectClient::Tab2SokectClient(QWidget *parent) :
+    QWidget(parent),
+    ui(new Ui::Tab2SokectClient)
+{
+    ui->setupUi(this);
+}
+
+Tab2SokectClient::~Tab2SokectClient()
+{
+    delete ui;
+}
